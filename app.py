@@ -86,7 +86,7 @@ def transfer():
     trans=transfers()
     #trans.dotransfer()
     pwd=request.args['pwd']
-    if pwd=='$Hiva5b3':
+    if pwd=='kumar123':
         trans.dotransfer()
         return "success"
     else:
