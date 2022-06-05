@@ -39,7 +39,7 @@ def webhook():
     conn=None
     resp=""
     ans=""
-    midway="http://govtservicebot-env.gmbkdsizsc.us-east-2.elasticbeanstalk.com/midway.php?q="
+    midway="http://govtbotservice.eba-ty2bkr9c.us-east-1.elasticbeanstalk.com/midway.php?q="
     if(entity2!=None):
         conn=connector(intent,entity1,query,entity2)
     else:
