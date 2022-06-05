@@ -5,7 +5,7 @@ import requests
 from transfers import *
 
 # initialize the flask app
-application=app = Flask(__name__)
+app = Flask(__name__)
 
 # default route
 @app.route('/')
