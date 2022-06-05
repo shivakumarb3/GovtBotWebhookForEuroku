@@ -1,0 +1,29 @@
+'''if(self.connection.is_connected()):
+            print("success")
+            sql_select_Query = "select * from verifiedsites where id="+str(2)
+            cursor = self.connection.cursor()
+            cursor.execute(sql_select_Query)
+            records = cursor.fetchall()
+            for row in records:
+                print("Id = ", row[0] )
+                print("title = ", row[1])
+                print("shortname  = ", row[2])
+                print("description  = ", row[2])
+                print("link  = ", row[4], "\n")'''
+return make_response(jsonify(results()))
+
+
+<body>
+       <script>
+           redfun()
+       function redfun()
+       {
+           //alert("hi")
+           window.location='<?php echo $link; ?>';
+        }
+       </script>
+    </body> 
+
+    admin
+Master password
+shiva123
